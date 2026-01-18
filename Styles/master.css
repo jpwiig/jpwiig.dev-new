@@ -1,0 +1,20 @@
+body{
+font-family: monospace;
+background-color: black;
+color: rgb(4, 228, 4);
+text-align: center;
+}
+h1{
+    font-size: 4rem;
+   
+}
+.name {
+    font-size: 3rem;
+}
+.date{
+    font-size: 1rem;
+}
+.basic-info{
+    font-size: 1rem;
+
+}
