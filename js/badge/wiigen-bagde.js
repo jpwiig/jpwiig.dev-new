@@ -6,11 +6,12 @@ class Wiigen extends HTMLElement {
         const shadow = this.attachShadow({mode: "open"});
         const anchor = document.createElement("a");
         anchor.setAttribute("class", "bagde")
-       anchor.setAttribute("href","https://new.jpwiig.dev")
+        anchor.setAttribute("href","https://new.jpwiig.dev")
         const l = document.createElement("div");
         l.setAttribute("class", "l")
         l.textContent = "λ~/";
         anchor.setAttribute("target", "_blank");
+        anchor.setAttribute("aria-label","Bagde for jpwiig.dev")
         anchor.appendChild(l);
         const sep = document.createElement("div")
         sep.setAttribute("class","sep")
@@ -29,13 +30,8 @@ class Wiigen extends HTMLElement {
             box-sizing: border-box;
             font-size: 1rem;
             text-decoration: none;
-            outline:none;
+            outline: none; 
   
-               &:active, &:focus, &:focus-visible {
-                color: initial;
-                outline: none;
-                box-shadow: none;
-            }
             .l, .r {
                 display: flex;
                 justify-content: center;
@@ -55,12 +51,15 @@ class Wiigen extends HTMLElement {
             .r{
             background: black; 
             text-transform:uppercase;
+            color:rgb(4, 228, 4) ;
+            outline: none;
             }
             .sep {
             width: 5px;
             background-color: black;
             }
         }`;
+        
       
         shadow.appendChild(style);
         shadow.appendChild(anchor);
