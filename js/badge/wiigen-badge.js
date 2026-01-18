@@ -3,7 +3,6 @@ class Wiigen extends HTMLElement {
         super();
     } 
     connectedCallback() {
-        alert("hallaien")
         const shadow = this.attachShadow({mode: "open"});
         const anchor = document.createElement("a");
         anchor.setAttribute("class", "bagde")
