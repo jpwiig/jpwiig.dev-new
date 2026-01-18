@@ -18,3 +18,18 @@ h1{
     font-size: 1rem;
 
 }
+
+.bagdes{
+    color: pink;
+}
+
+.grid{
+
+}
+nav{
+font-size: 1.5rem;
+
+}
+nav > a{
+    color:  rgb(4, 228, 4);
+}
