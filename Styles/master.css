@@ -40,6 +40,7 @@ h1{
 
 .bagdes{
     border: 2px dotted rgb(4, 228, 4);
+    padding: 10px;
 }
 
 nav{
