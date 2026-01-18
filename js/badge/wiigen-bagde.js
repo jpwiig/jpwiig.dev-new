@@ -31,6 +31,7 @@ class Wiigen extends HTMLElement {
             font-size: 1rem;
             text-decoration: none;
             outline: none; 
+            background: black;
   
             .l, .r {
                 display: flex;
@@ -66,4 +67,4 @@ class Wiigen extends HTMLElement {
     }
 
 }
-customElements.define("wiigen-bagde", Wiigen);
+customElements.define("wiigen-badge", Wiigen);

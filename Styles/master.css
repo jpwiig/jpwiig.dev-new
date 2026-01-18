@@ -4,6 +4,21 @@ background-color: black;
 color: rgb(4, 228, 4);
 text-align: center;
 }
+
+/*Animations for the typewriteeffent*/
+@keyframes typing {
+    from {max-width: 50%}
+    to {max-width: 100%}
+}
+@keyframes blinking {
+    from, to {border-color: transparent}
+    50% {border-color: black}
+}
+.typing{
+    border-right: .15em solid black;
+    overflow: hidden;
+    white-space: nowrap;
+}
 @font-face {
     font-family: 'Silkscreen';
     src: url('../Styles/font/silkscreen/slkscr.ttf');
