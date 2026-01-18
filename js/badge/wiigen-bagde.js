@@ -6,7 +6,7 @@ class Wiigen extends HTMLElement {
         const shadow = this.attachShadow({mode: "open"});
         const anchor = document.createElement("a");
         anchor.setAttribute("class", "bagde")
-      //  anchor.setAttribute("href","https://new.jpwiig.dev")
+       anchor.setAttribute("href","https://new.jpwiig.dev")
         const l = document.createElement("div");
         l.setAttribute("class", "l")
         l.textContent = "λ~/";
@@ -22,19 +22,20 @@ class Wiigen extends HTMLElement {
         const style = document.createElement("style");
         style.textContent = `
         .bagde {
-        display: flex;
+            display: flex;
             width: 210px;
             height: 30px;
             border: 3px groove green;
             box-sizing: border-box;
             font-size: 1rem;
             text-decoration: none;
-            
-             
-            &:active {
+            outline:none;
+  
+               &:active, &:focus, &:focus-visible {
                 color: initial;
+                outline: none;
+                box-shadow: none;
             }
-
             .l, .r {
                 display: flex;
                 justify-content: center;
