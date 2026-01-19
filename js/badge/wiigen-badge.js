@@ -30,7 +30,7 @@ class Wiigen extends HTMLElement {
             box-sizing: border-box;
             font-size: 1rem;
             text-decoration: none;
-            outline: none; 
+        
             background: black;
   
             .l, .r {
@@ -39,7 +39,7 @@ class Wiigen extends HTMLElement {
                 align-items: center;
                 margin: 1px;
                 height: calc(100% - 2px);
-                font-family: 'monospace'; 
+                font-family: monospace; 
             }
             
 
@@ -53,7 +53,7 @@ class Wiigen extends HTMLElement {
             background: black; 
             text-transform:uppercase;
             color:rgb(4, 228, 4) ;
-            outline: none;
+          
             }
             .sep {
             width: 5px;
