@@ -48,3 +48,28 @@ font-size: 1.5rem;
 nav > a{
     color:  rgb(4, 228, 4);
 }
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    word-break: break-all;
+}
+.grid-item{
+    border: 2px dotted rgb(4, 228, 4);
+    padding: 10px;
+    justify-content: center;
+    
+}
+.grid-item > img{
+    width: 40%;
+    border: 10px groove rgb(4, 228, 4);
+
+}
+.grid-item > p{
+    font-size: 1.0rem;
+    text-align: left;
+}
+.grid-item > ul{
+    font-size: 1.5rem;
+    text-align: left;
+}
