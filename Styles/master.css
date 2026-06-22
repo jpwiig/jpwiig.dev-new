@@ -80,19 +80,24 @@ nav > a{
 
 .project-list{
     border: 5px rgb(4, 228, 4) dashed;
-    justify-content: center;
+    padding-right: 55px;   
 }
 
 .project-list > ul > li{
-    border: 1px rgb(4, 228, 4) solid;
+    border: 2px rgb(4, 228, 4) solid;
     list-style-type: none;
-}
+    margin: 0.65rem;
+    padding: 0.65rem;
+    display: flex;
+    flex-direction: column;
 
-
-.project-list > ul > li > h2 {
-    font-size: 3rem ;
 }
 
 .project-list > ul > li > p {
+    text-align: left;
+}
+
+.project-list > ul > li > h2 {
+    font-size: 1.5rem;
     text-align: left;
 }
