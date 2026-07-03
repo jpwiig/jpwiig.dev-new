@@ -101,3 +101,36 @@ nav > a{
     font-size: 1.5rem;
     text-align: left;
 }
+
+.website {
+    width: 80%;
+}
+
+.list-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1.5fr );
+    gap: 10px;
+}
+.list-grid-item {
+    border: 2px groove rgb(4, 228, 4);
+    padding: 10px;
+    justify-content: center;
+    
+}
+.list-grid-item > h2 {
+    font-size: 1.5rem;
+    text-align: left;
+}
+.list-grid-item > a {
+    font-size: 1rem;
+}
+.list-grid-item > p {
+font-size: 1rem;
+text-align: left;
+}
+.canario-img{
+width: 30%;
+}
+.checksum-img{
+    width: 40%;
+}
